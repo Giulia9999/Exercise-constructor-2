@@ -14,8 +14,9 @@ public class Student {
         return grade;
     }
 
-    public void setGrade(int newGrade){
+    public int setGrade(int newGrade){
         this.grade = newGrade;
+        return newGrade;
     }
     public void getStudentDetails(){
         System.out.println(this.name + " - voto: " + this.grade);

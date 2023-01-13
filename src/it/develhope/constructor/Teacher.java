@@ -1,6 +1,6 @@
 package it.develhope.constructor;
 
-public class Teacher {
+public class Teacher  extends Student{
     private String teacherName;
 
     public Teacher(){
@@ -13,11 +13,7 @@ public class Teacher {
     public void setName(String newName){
         this.teacherName = newName;
     }
-    Student student = new Student();
-    private int teacherGrade = student.getGrade();
-
-
     public void assignGrade(Student alum, int finalGrade){
-        this.teacherGrade = finalGrade;
+        this.setGrade(finalGrade);
     }
 }
