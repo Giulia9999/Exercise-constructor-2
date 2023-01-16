@@ -9,8 +9,8 @@ public class Start {
         teacher.setName("Giovanni");
         System.out.println("Teacher name is " + teacher.getName());
 
-       teacher.assignGrade(student1, student1.setGrade(6));
-       teacher.assignGrade(student2, student2.setGrade(5));
+       teacher.assignGrade(student1, 6);
+       teacher.assignGrade(student2, 5);
 
        student1.getStudentDetails();
        student2.getStudentDetails();

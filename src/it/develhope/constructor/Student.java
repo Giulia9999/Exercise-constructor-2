@@ -9,6 +9,9 @@ public class Student {
         System.out.println("Student object created");
         this.name = studentName;
     }
+    public String getName(){
+        return name;
+    }
 
     public int getGrade(){
         return grade;
